@@ -24,8 +24,12 @@ img{max-width:100%}
 .tab{min-height:44px;padding:0 20px;font-family:Montserrat,Arial,sans-serif;font-size:14px;font-weight:600;letter-spacing:.04em;cursor:pointer;background:transparent;color:#1E2A4A;border:1px solid #C9A77C}
 .tab[aria-pressed="true"]{background:#1E2A4A;color:#F3EEE4;border-color:#1E2A4A}
 .listing[hidden]{display:none!important}
+@media (max-width: 760px){
+#top > img{position:static!important;height:auto!important;aspect-ratio:1179/639;object-position:right center!important}
+#top > div[aria-hidden]{display:none!important}
+#top > div:last-child{min-height:0!important;padding:32px 20px 48px!important}
+}
 @media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
-@media (max-width: 760px){#top > div[aria-hidden]{background: rgba(30, 42, 74, 0.82) !important}}
 </style>
 <link rel="alternate" hreflang="ru" href="https://vera-prime-properties.com/">
 <link rel="alternate" hreflang="en" href="https://vera-prime-properties.com/en/">
