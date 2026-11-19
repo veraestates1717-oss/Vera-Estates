@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /thanks.html
+Disallow: /en/thanks.html
+Disallow: /es/thanks.html
+
+Sitemap: https://vera-prime-properties.com/sitemap.xml
