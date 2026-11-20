@@ -22,7 +22,7 @@ h1,h2,h3{text-wrap:balance}
 html{scroll-behavior:smooth}
 img{max-width:100%}
 .tab{min-height:44px;padding:0 20px;font-family:Montserrat,Arial,sans-serif;font-size:14px;font-weight:600;letter-spacing:.04em;cursor:pointer;background:transparent;color:#1E2A4A;border:1px solid #C9A77C}
-.tab[aria-pressed="true"]{background:#D6E8F2;color:#1E2A4A;border-color:#1E2A4A}
+.tab[aria-pressed="true"]{background:#1E2A4A;color:#FFFFFF;border-color:#1E2A4A}
 .listing[hidden]{display:none!important}
 @media (max-width: 760px){
 #top > img{inset:0 auto auto 0!important;width:100%!important;height:auto!important;aspect-ratio:1179/639;object-position:center!important}
@@ -50,6 +50,7 @@ img{max-width:100%}
 </a>
 <nav aria-label="Основное меню" style="display: flex; flex-wrap: wrap; gap: 6px 28px; font-size: 15px; font-weight: 500">
 <a href="#catalog" style="text-decoration: none; color: #C9A77C">Виллы и дома</a>
+<a href="#catalog" style="text-decoration: none; color: #C9A77C">Участки</a>
 <a href="#invest" style="text-decoration: none; color: #C9A77C">Инвестиции</a>
 <a href="#mortgage" style="text-decoration: none; color: #C9A77C">Ипотека</a>
 <a href="#about" style="text-decoration: none; color: #C9A77C">О нас</a>
@@ -91,6 +92,7 @@ img{max-width:100%}
 <button type="button" class="tab" data-filter="all" aria-pressed="true">Все</button>
 <button type="button" class="tab" data-filter="villa" aria-pressed="false">Виллы</button>
 <button type="button" class="tab" data-filter="house" aria-pressed="false">Дома</button>
+<button type="button" class="tab" data-filter="plot" aria-pressed="false">Земельные участки</button>
 <button type="button" class="tab" data-filter="invest" aria-pressed="false">Инвестиции</button>
 </div>
 </div>
@@ -198,13 +200,13 @@ img{max-width:100%}
 </div>
 </div>
 </article>
-<article class="listing" data-cats="invest" style="display: flex; flex-direction: column; background: #FFFFFF; border-top: 4px solid #C9A77C">
+<article class="listing" data-cats="plot invest" style="display: flex; flex-direction: column; background: #FFFFFF; border-top: 4px solid #C9A77C">
 <div style="aspect-ratio: 16 / 10; background: #EAF4F9; overflow: hidden">
 <img loading="lazy" src="images/cullera-sea.jpg" alt="Море у пляжа Marenyet" style="width: 100%; height: 100%; object-fit: cover; display: block">
 </div>
 <div style="display: flex; flex-direction: column; gap: 12px; padding: 24px 24px 26px; flex: 1 1 auto">
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px">
-<span style="font-family: Montserrat, Arial, sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #8C6A42">Участок</span>
+<span style="font-family: Montserrat, Arial, sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: #8C6A42">Участок под застройку</span>
 <span style="font-size: 14px; color: #4F5868">Кульера, Валенсия</span>
 </div>
 <h3 style="margin: 0; font-family: Montserrat, Arial, sans-serif; font-weight: 600; font-size: 21px; line-height: 1.3">Участок 27 соток у пляжа Marenyet</h3>
